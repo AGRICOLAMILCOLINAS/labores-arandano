@@ -75,10 +75,10 @@ const CONFIG = {
      operarios:["Marta","John","Alejandro"]},
     {nombre:"San Luis Blue", cultivo:"Arándano", lider:"Juliana",
      lotes:["Válvula 1","Válvula 2","Válvula 3","Válvula 4","Válvula 5","Válvula 6","Válvula 7","Válvula 8","Válvula 9","Válvula 10"],
-     operarios:["Juan Esteban","Lina","Diana","Alejandra","Alisson","Esposo de Deisy"]},
+     operarios:["Juan Esteban","Lina","Diana","Alejandra","Neobadis","Fabián"]},
     {nombre:"Silver Own Berries", cultivo:"Arándano", lider:"Juliana",
      lotes:["Válvula 1","Válvula 2","Válvula 3","Válvula 4","Válvula 5","Válvula 6","Válvula 7","Válvula 8","Válvula 9","Válvula 10"],
-     operarios:["Juan Esteban","Lina","Diana","Alejandra","Alisson","Esposo de Deisy"]}
+     operarios:["Juan Esteban","Lina","Diana","Alejandra","Neobadis","Fabián"]}
   ]
 };
 /* ===================================================================== */
