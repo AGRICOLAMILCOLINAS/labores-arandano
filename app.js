@@ -158,7 +158,7 @@ $("f").addEventListener("submit",e=>{
   const base=()=>({
     id:Date.now().toString(36)+Math.random().toString(36).slice(2,6), creado:new Date().toISOString(),
     fecha:$("fecha").value, finca:f.nombre, cultivo:f.cultivo, lider:dia.lider||"", lluviaMm:dia.lluvia===""||dia.lluvia==null?"":Number(dia.lluvia),
-    llovioHoy:dia.llovio||"No", lluviaDesde:dia.llovio==="Sí"?(dia.desde||""):"", lluviaHasta:dia.llovio==="Sí"?(dia.hasta||""):"", novedadDia:dia.nov||"",
+    llovioHoy:dia.llovio||"", lluviaDesde:dia.llovio==="Sí"?(dia.desde||""):"", lluviaHasta:dia.llovio==="Sí"?(dia.hasta||""):"", novedadDia:dia.nov||"",
     trabajador:op, novedad:nov||"", novedadDuracion:nov?(trab?"Parte del día":"Todo el día"):"",
     lote:"", laborCod:"", labor:"", grupo:"", unidad:"", horaInicio:"", horaFin:"", pausaMin:"", horas:"", cantidad:"", rendimiento:"", meta:"", cumplimiento:"",
     obs:novDet, estado:"pendiente"
